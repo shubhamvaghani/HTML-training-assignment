@@ -4,14 +4,10 @@
     width: 1560px;
     height: 720px;
     background: #FAFAFA 0% 0% no-repeat padding-box;
-    opacity: 1;
     position: relative;
 }
 
-
-
 #img1 {
-
     top: 72px;
     position: absolute;
     left: 166px;
@@ -21,15 +17,11 @@
     background: transparent url('Images/hero-image.png') 0% 0% no-repeat padding-box;
     box-shadow: 0px 4px 31px #0000000A;
     border: 20px solid #FFFFFF;
-    opacity: 1;
-
 }
 
 .left-part {
-
     width: 272px;
     height: 58px;
-
 }
 
 #img2 {
@@ -38,8 +30,6 @@
     left: 906px;
     width: 272px;
     height: 58px;
-    opacity: 1;
-
 }
 
 .txt {
@@ -49,36 +39,28 @@
     height: 50px;
     text-align: left;
     font: normal normal 300 40px/47px Roboto;
-    letter-spacing: 0px;
     color: #3E3E3E;
-    opacity: 1;
     position: absolute;
 }
 
 #exp {
-
     top: 183px;
     left: 1036px;
     width: 137px;
     height: 53px;
     text-align: left;
     font: normal normal 900 40px/53px Roboto;
-    letter-spacing: 0px;
     color: #C8242F;
-    opacity: 1;
 }
 
 .login {
-
     top: 315px;
     left: 905px;
     width: 260px;
     height: 33px;
     text-align: left;
     font: normal normal normal 25px/33px Roboto;
-    letter-spacing: 0px;
     color: #3E3E3E;
-    opacity: 1;
     position: absolute;
 }
 
@@ -90,12 +72,10 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #ADADAD;
     border-radius: 5px;
-    opacity: 1;
     position: absolute;
 }
 
 #user {
-
     margin-top: 14px;
     margin-left: 14px;
     margin-bottom: 14px;
@@ -103,10 +83,7 @@
     height: 20px;
     text-align: left;
     font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
     color: #ADADAD;
-    opacity: 1;
-
 }
 
 .box2 {
@@ -118,7 +95,6 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #ADADAD;
     border-radius: 5px;
-    opacity: 1;
 }
 
 #pass {
@@ -129,9 +105,7 @@
     height: 20px;
     text-align: left;
     font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
     color: #ADADAD;
-    opacity: 1;
 }
 
 .log {
@@ -142,7 +116,6 @@
     height: 45px;
     background: #C8242F 0% 0% no-repeat padding-box;
     border-radius: 23px;
-    opacity: 1;
 }
 
 #log2 {
@@ -153,9 +126,7 @@
     height: 24px;
     text-align: left;
     font: normal normal medium 18px/24px Roboto;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
 }
 
 .fpass {
@@ -166,9 +137,7 @@
     position: absolute;
     text-align: left;
     font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
     color: #ADADAD;
-    opacity: 1;
 }
 
 .new {
@@ -179,10 +148,7 @@
     position: absolute;
     text-align: left;
     font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
     color: #ADADAD;
-    opacity: 1;
-
 }
 
 .reg {
@@ -193,9 +159,7 @@
     position: absolute;
     text-align: left;
     font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
     color: #C8242F;
-    opacity: 1;
 }
 
 /* dashboard css */
@@ -388,10 +352,10 @@
     color: #3E3E3E;
 }
 
-#user {
+#userdash {
     position: absolute;
-    top: 210px;
-    left: 34px;
+    top: 223px;
+    left: 47px;
     width: 12px;
     height: 12px;
 }
@@ -705,13 +669,15 @@
     width: 18px;
     height: 18px;
 }
-#pie{
+
+#pie {
     position: absolute;
     top: 76px;
     left: 89px;
-    
+
 }
-#invoices{
+
+#invoices {
     top: 758px;
     left: 292px;
     width: 1217px;
@@ -719,13 +685,15 @@
     position: absolute;
     background: #FFFFFF 0% 0% no-repeat padding-box;
 }
-#invoicetxt{
+
+#invoicetxt {
     top: 22.52px;
     left: 29px;
     position: absolute;
     color: #3E3E3E;
 }
-#viewtxt{
+
+#viewtxt {
     top: 26px;
     left: 1145px;
     position: absolute;
@@ -733,17 +701,180 @@
     font-size: 13px;
 }
 
-table{
+table {
     position: absolute;
-    top:88.13px;
-    left:40px;
-   width: 93%;
+    top: 88.13px;
+    left: 40px;
+    width: 93%;
+
 }
-th{
+
+th {
     color: #ADADAD;
 }
-th , td{
+
+th,
+td {
     padding: 13.15px;
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
+    border-bottom: 1px solid #ADADAD;
+}
+
+#paid {
+    color: #3CDD5F;
+    background: #EBFFEF 0% 0% no-repeat padding-box;
+}
+
+#failed {
+    color: #FF4545;
+    background: #FFF5F5 0% 0% no-repeat padding-box;
+}
+
+#pending {
+    color: #BABABA;
+    background: #F8F8F8 0% 0% no-repeat padding-box
+}
+
+/* inner page css */
+#body{
+    top: 0px;
+   left: 0px;
+width: 1560px;
+height: 1970px;
+position: relative;
+background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+.innerpagesidebar{
+    top: 80px;
+    left: 0px;
+    width: 242px;
+    height: 1890px;
+    position: absolute;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+#form {
+    position: absolute;
+    top: 182px;
+    left: 292px;
+    width: 1218px;
+    height: 1749px;
+    background: #FFFFFF 0% 0% no-repeat padding-box
+}
+#Ana{
+    color: #000000;
+    position: absolute;
+    top: 121px;
+    left: 290px;
+    font-size: 30px;
+}
+#onecolumn{
+    margin-top: 22.52px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+.form-group{
+    padding: 14.5px 30px 0px 30px;
+}
+.form-group-2{
+    padding:0px 30px 0px 30px;
+}
+.form-group-3{
+    padding:20px 30px 0px 30px;
+}
+#twocolumn{
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+.row{
+    padding:15.98px 30.5px 0px 30.5px;
+}
+select:invalid{
+   color:  #ADADAD;
+}
+#threecolumn{
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+#iuser{
+    border: 1px dashed #ADADAD;
+}
+#fourcolumn{
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+#uiborder{
+    border: 1px solid #FF3B3B;
+}
+#uidesign{
+    color: #FF3B3B;
+}
+#otherdesign{
+    margin-top: 44px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+#fileupload{
+    margin-top: 21.13px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+#radio{
+    margin-top: 36.15px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+#checkbox{
+    margin-top: 32.52px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+#snackbar{
+    margin-top: 34.52px;
+    margin-left: 29px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    border: 1px solid  #FF3B3B ;
+    border-radius: 20px;
+}
+#item{
+    margin-left: 14px;
+    font-size: 12px;
+    color: #ADADAD;
+}
+#error{
+    margin-top: 13.67px;
+    width: 17px;
+height: 17px;
+}
+#column{
+    width: 563px;
+    height: 44px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+#errortxt{
+    padding-top: 50.67px;
 }
