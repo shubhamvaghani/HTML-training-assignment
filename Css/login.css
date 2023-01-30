@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+.container{
+    width: 1560px;
+    height: 720px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.heroimg {
+    width: 430px;
+    border-radius: 50%;
+    border: 20px solid #FFFFFF;
+    box-shadow: 0px 4px 31px #0000000A;
+    margin: 95px 72px 0 131px;
+}
+
+.header-logo {
+    width: 229px;
+    margin: 0px 0 19px 0;
+}
+
+.right {
+    margin: 80px 0 0 0;
+}
+
+.header-description {
+    font-size: 30px;
+    margin-bottom: 19px;
+}
+
+ .red {
+    color: #c8242f;
+}
+ .login-text {
+    margin-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+}
+
+.input-box {
+    background-color: #FFFFFF;
+    border: 1px solid #ADADAD;
+    padding: 11px;
+    text-align: left;
+    margin-bottom: 27px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+   outline: none;
+}
+
+#submit {
+    background-color: #c8242f;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    width: 118px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.login-form a {
+    color: #ADADAD;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0 0 0 100px;
+}
+
+.registertxt {
+    color: #ADADAD;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.registertxt a {
+    color: #c8242f;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1199px) {
+    .heroimg {
+        width: 337px;
+        margin: 96px 72px 0 75px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .heroimg {
+        width: 280px;
+        margin: 174px 40px 0 39px;
+    }
+    .header-logo {
+        width: 177px;
+    }
+    .header-description {
+        font-size: 23px;
+        margin-bottom: 19px;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 216px;
+    }
+    #submit {
+        font-size: 14px;
+        border-radius: 17px;
+        width: 88px;
+    }
+    .login-form a {
+        font-size: 14px;
+        margin: 0 0 0 12px;
+    }
+    .registertxt {
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .heroimg{
+        display: none;
+    }
+    .right {
+        margin: 30px 0 0 0;
+    }
+    .right div {
+        align-items: center !important;
+    }
+    .header-logo {
+        width: 234px;
+    }
+    .header-description {
+        font-size: 26px;
+        margin-bottom: 19px;
+        text-align: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 373px;
+    }
+    .login-form a {
+        font-size: 18px;
+        margin: 0 0 0 105px;
+    }
+    #submit {
+        width: 120px;
+        height: 39px;
+        font-size: 18px;
+    }
+    .registertxt {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .login-form {
+        width: 337px;
+    }
+     .input-box {
+        padding: 8px;
+        margin-bottom: 25px;
+    }
+    #submit {
+        width: 96px;
+        height: 38px;
+        font-size: 16px;
+    }
+    .login-form a,
+    .registertxt {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .login-form {
+        width: 280px;
+    }
+    .input-box {
+        padding: 9px;
+        margin-bottom: 25px;
+    }
+    #submit {
+        width: 100px;
+        height: 38px;
+        font-size: 16px;
+    }
+    .registertxt {
+        font-size: 16px;
+    }
+    .login-form a {
+        font-size: 16px;
+        margin: 0 0 0 48px;
+    }
+}
