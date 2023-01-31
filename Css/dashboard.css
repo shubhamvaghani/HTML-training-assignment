@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body {
+    background-color: #fbfbfb;
+}
+.list-group .list-group-item{
+    border: none;
+}
+
+#allimg{
+    height: 15px;
+    width: 15px;
+}
+#menubar{
+    background: none;
+    border: none;
+}
+@media (min-width: 991.98px) {
+    main {
+        padding-left: 240px;
+    }
+    .sidebar{
+        width: 150px;
+    }
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+   
+    #sidebarmenu{
+        display: none;
+    }
+}
+
+.sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 2%;
+
+}
+
+.stamp{
+    margin-left: 70px;
+    
+}
+.stamp-detail{
+    background-color: white;
+    display: flex;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2px;
+}
+.stamp-detail img{
+    padding:10px;
+    height: 55px;
+}
+.stamp-detail p{
+    margin-block: 0%;
+}
+
+.number{
+    padding-top:6px;
+}
+.detail{
+    font-size: small;
+    padding-right: 10px;
+   }
+.chart-detail{
+    margin-top: 30px;
+   
+}
+.chart-detail img{
+    margin: 20px 20px 20px 20px;
+    width: 550px;
+}
+.label span{
+    padding: 10px;
+    margin-left: 15px;
+    color: #3E3E3E;
+    font-weight: 700;
+    }
+.label u{
+    display: inline;
+    margin: 10px;
+    font-size: x-small;
+}
+.monthly,.weekly{
+    color: gray;
+    text-decoration-color:white;
+}
+.yearly-active{
+    text-underline-offset: 10px;
+    color: red;
+}
+
+.chart-detail div,
+.piechart div {
+    background-color: white;
+}
+
+.piechart > div ,
+.chart-detail > div{
+    height: 100%;
+}
+
+.piechart span{
+    margin: 15px;
+  font-weight: 700;
+    color: #3E3E3E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.piechart img{
+    margin:20px 75px 0px 75px;
+    height: 200px;
+}
+.countries p{
+    font-size: small;
+    position: relative;
+    bottom: 4px;
+    left: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.invoice{
+    margin-left: 2%;
+}
+.invoice th{
+    color: gray;
+}
+.header span{
+    padding: 10px;
+}
+.text-success{
+    color: #3CDD5F;
+    background-color: rgb(235, 255, 239);
+}
+.text-danger{
+    color: rgba(255, 69, 69, 1);
+    background-color: rgb(255, 245, 245);
+}
+.text-secondary{
+    color: rgba(186, 186, 186, 1);
+    background-color: rgba(248, 248, 248, 1);
+}
+
+th{
+    color: rgba(186, 186, 186, 1);
+    font-weight: normal;
+}
